@@ -1,0 +1,55 @@
+
+/* <h3>Devesh's Joke Gallery</h3>
+        <br>
+        <div id="joke" class="joke">Awesome joke is loading...</div>
+    </br>
+
+    <button class="btn">Next Joke</button>*/
+
+
+body{
+    background-color: pink;
+}
+
+.container{
+   position: relative;
+   top: 220px;
+   left: 380px;
+    height: 292px;
+    width: 40em;
+    color: black;
+    background: #e3eaa7;
+    border-radius: 30px;
+    border: 4px solid black;
+    
+}
+.btn{
+    position: absolute;
+    left: 40%;
+    top: 70%;
+    border-radius: 8px;
+    padding: 10px 25px;
+    font-size: large;
+   
+}
+.joke{
+    position: absolute;
+    left: 10%;
+    right: 5px;
+    top: 40%;
+    font-size: larger;
+    font-style: italic;
+    text-align: center;
+    flex-wrap: wrap;
+}
+h3{
+    position: absolute;
+    left: 35%;
+    top: 5%;
+    font-size: larger;
+    text-decoration: underline;
+    text-decoration-color: black;
+    letter-spacing: 3px;
+}
+
+
